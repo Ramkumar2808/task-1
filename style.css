@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 1.5rem;
+  line-height: 1.4;
+}
+
+.container {
+  display: flex;
+}
+
+.active {
+  background-color: white;
+  color: black;
+}
+
+#side-bar {
+  width: 20vw;
+  background-color: #000;
+}
+
+#sidebar-menu {
+  color: white;
+  /* width: fit-content; */
+  /* padding: 3rem; */
+  min-height: 100vh;
+}
+
+.menu-title {
+  padding: 2rem 1rem;
+}
+
+main {
+  padding: 4rem;
+  background-color: rgb(185, 185, 185);
+}
+
+.card {
+  background-color: white;
+  padding: 1rem;
+}
+
+table th,
+table td,
+table tr {
+  padding: 1.3rem;
+}
+
+#search-bar {
+  width: 400px;
+  padding: 1rem;
+  border-radius: 20px;
+  margin-bottom: 0.5rem;
+}
